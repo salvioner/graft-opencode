@@ -1,7 +1,7 @@
 /**
  * A Graft plugin for OpenCode that mimicks the behaviour of the official Claude Code plugin.
  *
- * Author: Andrea Arighi
+ * Author: Andrea Arighi - @salvioner
  */
 
 import type { Plugin } from "@opencode-ai/plugin"
