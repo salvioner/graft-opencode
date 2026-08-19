@@ -1,0 +1,35 @@
+{
+  "name": "graft-opencode",
+  "version": "1.0.0",
+  "description": "Zero-npm installer + event-driven background plugin wiring the local NanoNets Graft index into OpenCode.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "graft-opencode": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    ".opencode",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "graft",
+    "code-graph",
+    "context"
+  ],
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.18",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
