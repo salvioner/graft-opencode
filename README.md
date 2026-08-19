@@ -1,6 +1,9 @@
 # graft-opencode
 Extra tools to use https://github.com/NanoNets/Graft within [OpenCode](https://opencode.ai/).
 
+## Code
+The plugin code is in [graft-plugin.ts](.opencode/plugin/graft-plugin.ts).
+
 ## Usage
 Copy folder `.opencode` in your repository, it will put the tools/plugins etc. in the right place.
 
