@@ -60,6 +60,7 @@ Prefer to copy the files yourself? Mirror the `.opencode/` tree into your
 repository:
 
 ```bash
+cd graft-opencode  # This repo
 rsync -avu .opencode/ /path/to/destination/.opencode/
 ```
 
